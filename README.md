@@ -1,6 +1,27 @@
 # Human Resource Management System (HRMS) & Workforce Operations Suite
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-777bb4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
+
+> [!IMPORTANT]
+> **Commercial Intellectual Property Notice & Source Code Sale:**
+> This repository contains a production-ready, proprietary software solution engineered by **Ronit Goswami (RG Creators)**. It is available for commercial acquisition, full IP buyout, or custom enterprise licensing.
+> 
+> - **Asset Classification:** Enterprise HRMS & Payroll
+> - **Commercial Valuation / Fair Market Estimate:** **₹50,000 – ₹80,000 INR** *(Full Source Code & Commercial Rights)*
+> - **Full IP Buyout & Exclusive Ownership:** **₹1,10,000 INR**
+> - **Target Industry:** Corporate HR, Enterprise Workforce Operations, Payroll & Talent Management
+> - **Handover Deliverables:**
+>   - Complete HRMS backend REST API source code and SPA portal interfaces
+>   - Employee lifecycle management (onboarding, departments, designations, exit interviews)
+>   - Leave management engine with approval hierarchies and accrual rules
+>   - Comprehensive salary ledger, payslip generation, and attendance calculation models
+>   - Postman API test collections, database schemas, and seed data
+>   - 30 days of dedicated technical handover and integration support
+> - **Official Portfolio:** [https://rgcreators.netlify.app](https://rgcreators.netlify.app)
+> - **Acquisition & Licensing Inquiries:** [rgcreatorsofficial@gmail.com](mailto:rgcreatorsofficial@gmail.com)
+
+---
+
 [![REST API](https://img.shields.io/badge/REST-API-0052CC?style=for-the-badge&logo=postman&logoColor=white)](https://postman.com)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
@@ -76,3 +97,31 @@ An agile, lightweight Human Resource Management System (HRMS) and Workforce Oper
 
 ## 📄 License
 This project is open-source under the [MIT License](LICENSE).
+
+
+---
+
+## 🚀 Future Roadmap & Next-Gen Implementation Ideas (Ready for Expansion)
+
+The following extensive architectural and feature expansions have been designed and architected for rapid implementation, transforming this solution into a high-capacity, enterprise-grade platform:
+
+1. **Statutory Indian Payroll Compliance Engine:** Automated calculation of PF, ESI, Professional Tax, TDS tax regimes, and Form 16 generator.
+2. **Biometric Attendance Push Listener:** Direct TCP/IP and API listener for ZKTeco, Essl, and Realtime biometric punch machines.
+3. **Geofenced Mobile Punch with Anti-Spoof Liveness:** GPS radius verification combined with AI facial liveness detection for remote and field staff.
+4. **360-Degree Performance Appraisal & OKR Suite:** Quarterly appraisal cycles, manager/peer review scoring, and KPI achievement heatmaps.
+5. **AI Resume Parsing & ATS (Applicant Tracking System):** Automated candidate CV parsing, skill keyword scoring, and interview scheduling pipeline.
+6. **Digital Employee Onboarding with Aadhaar e-Sign:** Paperless document verification with DigiLocker and automated digital contract signing.
+7. **Employee Self-Service (ESS) Mobile App:** Native Flutter mobile app for instant leave applications, expense claims, and payslip downloads.
+8. **Automated Shift Scheduling & Overtime Validation:** Dynamic rotational shift planner with automatic overtime pay approval workflows.
+9. **Enterprise Asset Lifecycle & IT Equipment Tracking:** Hardware allocation logging, warranty status, maintenance tickets, and return audits.
+10. **Predictive Employee Attrition & Sentiment Analytics:** Machine learning models forecasting flight risk based on leave patterns and review sentiments.
+
+---
+
+## 💼 Commercial Acquisition & Licensing Agreement
+
+For source code inspection, live technical walkthrough, pricing negotiations, or exclusive enterprise buyout:
+- **Lead Architect & Developer:** Ronit Goswami (RG Creators)
+- **Primary Contact Email:** [rgcreatorsofficial@gmail.com](mailto:rgcreatorsofficial@gmail.com)
+- **Official Portfolio:** [https://rgcreators.netlify.app](https://rgcreators.netlify.app)
+- **Location:** Kolkata, West Bengal, India
