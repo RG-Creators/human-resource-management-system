@@ -1,15 +1,15 @@
-# Hackathon Workforce Suite & HRMS REST API
+# Human Resource Management System (HRMS) & Workforce Operations Suite
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-777bb4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
 [![REST API](https://img.shields.io/badge/REST-API-0052CC?style=for-the-badge&logo=postman&logoColor=white)](https://postman.com)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-An agile, lightweight Human Resource Management System (HRMS) and Workforce Operations REST API engineered during a competitive hackathon virtual round. Features role-based access control, attendance clock-in/out, leave application approval workflows, payroll ledger calculation, and multi-tenant announcement broadcasting.
+An agile, lightweight Human Resource Management System (HRMS) and Workforce Operations REST API engine. Features role-based access control, attendance clock-in/out, leave application approval workflows, payroll ledger calculation, and multi-department announcement broadcasting.
 
 ---
 
-## ?? System Architecture
+## 🏗️ System Architecture
 
 ```
 +-------------------------------------------------------------------------+
@@ -35,7 +35,7 @@ An agile, lightweight Human Resource Management System (HRMS) and Workforce Oper
 
 ---
 
-## ? Key Capabilities
+## ⚡ Key Capabilities
 
 - **RESTful Resource Routing**: Single entrypoint dispatcher (`backend/api.php`) handling `GET`, `POST`, `PUT`, `DELETE` operations on workforce entities.
 - **Role-Based Access Control**: Strict segregation between `admin` privileges (salary disbursement, leave approvals) and `employee` self-service portals.
@@ -45,7 +45,7 @@ An agile, lightweight Human Resource Management System (HRMS) and Workforce Oper
 
 ---
 
-## ?? Tech Stack
+## 🛠️ Tech Stack
 
 - **Backend**: Core PHP 8.2+ (PDO Singleton, JSON REST API, Password Hashing)
 - **Frontend**: Responsive HTML5, Modern CSS Grid & Flexbox, Asynchronous JavaScript (Fetch API)
@@ -53,33 +53,26 @@ An agile, lightweight Human Resource Management System (HRMS) and Workforce Oper
 
 ---
 
-## ?? Getting Started
+## 🚀 Getting Started
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/RG-Creators/hackathon-workforce-suite.git
-   cd hackathon-workforce-suite
+   git clone https://github.com/RG-Creators/human-resource-management-system.git
+   cd human-resource-management-system
    ```
 
 2. **Database Setup**:
-   - Create database `human_resource`:
-     ```sql
-     CREATE DATABASE human_resource CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-     ```
-   - Seed database using the CLI:
-     ```bash
-     php backend/seed.php
-     ```
+   - Create a MySQL database named `hrms_db` or import the schema.
+   - Run `backend/seed.php` to populate default roles, mock staff members, and attendance fixtures.
 
-3. **Run Application**:
-   ```bash
-   php -S localhost:8000
-   ```
-   - Access Login: `http://localhost:8000/frontend/login.html`
-   - Default Admin: `admin@hrms.com` / `admin123`
-   - Default Employee: `john.doe@company.com` / `password123`
+3. **Launch Local Server**:
+   - Serve using Apache/WAMP or built-in PHP server:
+     ```bash
+     php -S localhost:8000
+     ```
+   - Access the Admin Portal or Employee Dashboard from `frontend/index.html`.
 
 ---
 
-## ?? License
-This repository is licensed under the [MIT License](LICENSE).
+## 📄 License
+This project is open-source under the [MIT License](LICENSE).
